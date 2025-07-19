@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Flask App (Debug)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/02/app.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "FLASK_ENV": "development"
+            }
+        },
+        {
+            "name": "Python: Flask App (No Debug)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/02/app.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "env": {
+                "FLASK_ENV": "development"
+            }
+        }
+    ]
+}
